@@ -195,6 +195,12 @@ button:hover {
   font-size: 1.7rem;
   font-weight: bold;
 }
+@media (max-width: 500px) {
+  button:hover {
+    width: 100%;
+    height: 80px;
+  }
+}
 .navigation-main {
   width: 100%;
   height: 100px;
