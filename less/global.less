@@ -37,6 +37,10 @@ p {
 }
 
 button {
-  .signup-button(black, white, bold);
+  .signup-button(@btn-bg-color, @porcelain, bold);
+}
+
+button:hover {
+  .signup-button(@porcelain, @btn-bg-color, bold);
 }
 

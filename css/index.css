@@ -172,8 +172,17 @@ p {
   margin: 0 auto;
 }
 button {
-  background-color: black;
-  color: white;
+  background-color: #22283A;
+  color: #F6F7F8;
+  height: 40px;
+  width: 110px;
+  border-radius: 7px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #F6F7F8;
+  color: #22283A;
   height: 40px;
   width: 110px;
   border-radius: 7px;
