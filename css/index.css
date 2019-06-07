@@ -321,3 +321,31 @@ footer {
     margin-left: -4%;
   }
 }
+.our-team {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.profiles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.profiles .person {
+  width: 50%;
+}
+.profiles .person h3 {
+  padding-top: 15px;
+}
+.profiles .person p {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.mission {
+  border-top: 1px solid #dee2e6;
+  padding-top: 30px;
+}
+.mission p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
