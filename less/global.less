@@ -38,6 +38,11 @@ p {
 
 button {
   .signup-button(@btn-bg-color, @porcelain, bold);
+
+  @media @mobile {
+    width: 100%;
+    height: 80px;
+  }
 }
 
 button:hover {
